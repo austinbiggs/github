@@ -1,19 +1,14 @@
 import { ApolloClient, HttpLink } from "@apollo/client";
 import { InMemoryCache } from "@apollo/client/cache";
 
-const githubEndpoint = process.env.GITHUB_ENDPOINT;
-
-const headers = {
-  "x-hasura-admin-secret": hasuraAdminSecret,
-};
+import { GITHUB_ENDPOINT } from "./constants";
 
 const client = () =>
   new ApolloClient({
     cache: new InMemoryCache(),
     link: new HttpLink({
-      headers,
-      uri: githubEndpoint,
+      uri: GITHUB_ENDPOINT,
     }),
   });
 
-export default client;
+export { client };
