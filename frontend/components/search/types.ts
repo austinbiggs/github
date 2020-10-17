@@ -1,9 +1,6 @@
-import html from "node-html-parser/dist/nodes/html";
-
 export interface Language {
   id: number;
   color: string;
-  edges: any;
   name: string;
 }
 
@@ -16,7 +13,7 @@ export interface Owner {
 
 export interface Repository {
   description: string;
-  descriptionHTML: html;
+  descriptionHTML: string;
   languages: Language[];
   name: string;
   nameWithOwner: string;

@@ -14,6 +14,7 @@ const RepoModal = (props: Props) => {
   const { repo, setSelectedRepo } = props;
 
   const renderLanguages = () => {
+    // @ts-ignore
     const { edges } = repo.languages;
 
     return (
