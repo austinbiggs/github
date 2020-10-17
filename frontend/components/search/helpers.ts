@@ -1,8 +1,6 @@
 import { isEmpty } from "lodash";
 
-import { Repository } from "./types";
-
-export const pluckRepos = (repos: Repository[]) => {
+export const pluckNodes = (repos: any[]) => {
   if (isEmpty(repos)) {
     return;
   }

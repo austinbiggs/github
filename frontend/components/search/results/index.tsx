@@ -5,14 +5,14 @@ import { Button, Card, Col, Row, Spinner } from "react-bootstrap";
 
 import { Props, Repository } from "../types";
 
+import { RepoModal } from "./modal";
 import styles from "./style.m.scss";
 
 const Results = (props: Props) => {
   const { loading, searchTerm } = props;
 
-  const [selectedRepository, setSelectedRepository] = React.useState(null);
+  const [selectedRepo, setSelectedRepo] = React.useState(null);
 
-  console.log({ selectedRepository });
   const results = props.results || [];
 
   const renderLoading = () => {
@@ -43,7 +43,7 @@ const Results = (props: Props) => {
             className={styles.button}
             variant="primary"
             size="sm"
-            onClick={() => setSelectedRepository(repository)}
+            onClick={() => setSelectedRepo(repository)}
           >
             See Details
           </Button>
@@ -69,11 +69,17 @@ const Results = (props: Props) => {
   };
 
   return (
-    <Row
-      className={classNames("justify-content-md-center", [styles.repository])}
-    >
-      {loading ? renderLoading() : renderResults()}
-    </Row>
+    <>
+      <Row
+        className={classNames("justify-content-md-center", [styles.repository])}
+      >
+        {loading ? renderLoading() : renderResults()}
+      </Row>
+
+      {selectedRepo && (
+        <RepoModal repo={selectedRepo} setSelectedRepo={setSelectedRepo} />
+      )}
+    </>
   );
 };
 

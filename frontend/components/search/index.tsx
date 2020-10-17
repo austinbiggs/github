@@ -3,7 +3,7 @@ import * as React from "react";
 import { Form } from "react-bootstrap";
 import { isEmpty } from "lodash";
 
-import { pluckRepos } from "./helpers";
+import { pluckNodes } from "./helpers";
 import { Results } from "./results";
 import { SearchRepositories } from "./gql/search-repositories";
 
@@ -22,7 +22,7 @@ const Search = () => {
     onCompleted: (data: any) => {
       const { edges } = data.search;
 
-      setRepositories(pluckRepos(edges));
+      setRepositories(pluckNodes(edges));
     },
     onError: (error: ApolloError) => {
       // todo(austinbiggs): I would replace this w/ a toast message
@@ -42,7 +42,9 @@ const Search = () => {
     <>
       <Form.Control
         type="input"
-        onChange={(event: React.ChangeEvent) => handleChange(event)}
+        onChange={(event: React.ChangeEvent<HTMLInputElement>) =>
+          handleChange(event)
+        }
         placeholder="Search Public GitHub Repo's&hellip;"
       />
 
