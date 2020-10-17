@@ -3,6 +3,7 @@ import html from "node-html-parser/dist/nodes/html";
 export interface Language {
   id: number;
   color: string;
+  edges: any;
   name: string;
 }
 
