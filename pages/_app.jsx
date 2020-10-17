@@ -1,12 +1,15 @@
 import React from "react";
-import { DocHead } from "components/head";
+import { DocumentHead } from "components/document/head";
+import { Provider } from "gql/provider";
 import "bootswatch/dist/lux/bootstrap.min.css";
 
 const Monarch = ({ Component, pageProps }) => {
   return (
     <>
-      <DocHead />
-      <Component {...pageProps} />
+      <DocumentHead />
+      <Provider>
+        <Component {...pageProps} />
+      </Provider>
     </>
   );
 };

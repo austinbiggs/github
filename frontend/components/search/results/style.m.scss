@@ -1,0 +1,20 @@
+.loading {
+  margin-top: 50px;
+}
+
+.noResults {
+  margin-top: 20px;
+}
+
+.repository {
+  &:first-of-type {
+    margin-top: 15px;
+  }
+
+  margin-bottom: 10px;
+  min-width: 100%;
+
+  .button {
+    float: right;
+  }
+}

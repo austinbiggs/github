@@ -1,5 +1,6 @@
 import * as React from "react";
 import { Col, Container, Row } from "react-bootstrap";
+import { Search } from "components/search";
 
 import styles from "./home/style.m.scss";
 
@@ -7,9 +8,14 @@ const Home = () => {
   return (
     <div className={styles.body}>
       <Container>
-        <Row>
-          <Col xs={12} sm={12} md={12} lg={12} xl={12}>
-            <></>
+        <Row className="justify-content-md-center">
+          <Col xs={8} sm={8} md={8} lg={8} xl={8}>
+            <img
+              className={styles.logo}
+              alt="Github Logo"
+              src="/images/github-logo.png"
+            />
+            <Search />
           </Col>
         </Row>
       </Container>

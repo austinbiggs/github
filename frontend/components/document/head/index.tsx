@@ -1,7 +1,7 @@
 import React from "react";
 import Head from "next/head";
 
-const DocHead = () => {
+const DocumentHead = () => {
   return (
     <Head>
       <title>Monarch - Austin Biggs</title>
@@ -18,4 +18,4 @@ const DocHead = () => {
   );
 };
 
-export { DocHead };
+export { DocumentHead };
