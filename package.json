@@ -68,7 +68,7 @@
     "lint-staged": "^10.4.2",
     "node": "^15.0.1",
     "prettier": "2.1.2",
-    "sinon": "^9.2.0",
+    "sinon": "^9.2.1",
     "sinon-chai": "^3.5.0",
     "stylelint": "^13.7.2",
     "stylelint-config-prettier": "^8.0.2",
