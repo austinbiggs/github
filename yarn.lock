@@ -4999,10 +4999,10 @@ dotenv-defaults@^2.0.1:
   dependencies:
     dotenv "^8.2.0"
 
-dotenv-webpack@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/dotenv-webpack/-/dotenv-webpack-4.0.0.tgz#05f9a9c9e354efdea60d6b1b3b5f914924b5ed7d"
-  integrity sha512-nmfhB0fV1AJVLGrU0E+F+/mfcP8dYAqiuFPgepQmX8D0uZoynxC1AYdlBn3fiA3Cfr9h0efFftprDfSS/C3kkg==
+dotenv-webpack@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/dotenv-webpack/-/dotenv-webpack-5.0.0.tgz#8b79b656a84353c19f732f847824111c45871158"
+  integrity sha512-AuCwhyuAxw0e29vka4Ev2zNJ0oN7PNUz7objhT8CsO1rASqY7/RPa/KNXe8ObKIFVpIaZzSD6mYkFbrbmM0thA==
   dependencies:
     dotenv-defaults "^2.0.1"
 
@@ -10976,14 +10976,6 @@ resolve-url@^0.2.1:
   integrity sha1-LGN/53yJOv0qZj/iGqkIAGjiBSo=
 
 resolve@^1.10.0, resolve@^1.12.0, resolve@^1.13.1, resolve@^1.17.0, resolve@^1.18.1, resolve@^1.3.2, resolve@^1.8.1:
-  version "1.18.1"
-  resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.18.1.tgz#018fcb2c5b207d2a6424aee361c5a266da8f4130"
-  integrity sha512-lDfCPaMKfOJXjy0dPayzPdF1phampNWr3qFCjAu+rw/qbQmr5jWH5xN2hwh9QKfw9E5v4hwV7A+jrCmL8yjjqA==
-  dependencies:
-    is-core-module "^2.0.0"
-    path-parse "^1.0.6"
-
-resolve@^1.18.1:
   version "1.18.1"
   resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.18.1.tgz#018fcb2c5b207d2a6424aee361c5a266da8f4130"
   integrity sha512-lDfCPaMKfOJXjy0dPayzPdF1phampNWr3qFCjAu+rw/qbQmr5jWH5xN2hwh9QKfw9E5v4hwV7A+jrCmL8yjjqA==
