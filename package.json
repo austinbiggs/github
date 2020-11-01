@@ -49,7 +49,7 @@
     "dotenv-webpack": "^4.0.0",
     "eslint": "^7.12.0",
     "eslint-config-airbnb": "^18.2.0",
-    "eslint-config-prettier": "^6.14.0",
+    "eslint-config-prettier": "^6.15.0",
     "eslint-import-resolver-typescript": "^2.3.0",
     "eslint-import-resolver-webpack": "^0.13.0",
     "eslint-plugin-chai-expect": "^2.2.0",
