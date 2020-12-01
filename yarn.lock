@@ -2457,10 +2457,10 @@
     "@webassemblyjs/wast-parser" "1.9.0"
     "@xtuc/long" "4.2.2"
 
-"@webdeb/next-styles@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@webdeb/next-styles/-/next-styles-1.1.0.tgz#8f254a83a55eb33cf1ed78fc8354d9b603b8ed8e"
-  integrity sha512-CChB22E2PDtM9A+8HnCzCCXdr9PSFEhAxvUEG9awzHWFJeDlZIWycBi3HLIc2ySlR3dzECEL4JX5/+xNA6r9aw==
+"@webdeb/next-styles@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@webdeb/next-styles/-/next-styles-1.1.1.tgz#809565fd075279ac29f54903f91bc3f882c0c0cf"
+  integrity sha512-tFKveSkGsMZsBK3FNFSohM+ZGCC52YVKtuAn5SgWRcSEn6Tq8+Ic0Oud4iP+exHCNgYCyNS3zMeYeD95Fp6W1Q==
   dependencies:
     css-loader "^3.5.2"
     extracted-loader "^1.0.7"
