@@ -28,7 +28,7 @@
     "lodash": "^4.17.20",
     "next": "^9.5.3",
     "react": "^16.14.0",
-    "react-bootstrap": "^1.4.0",
+    "react-bootstrap": "^1.4.3",
     "react-dom": "^16.14.0",
     "react-hook-form": "^6.9.6",
     "react-i18next": "^11.7.3",
