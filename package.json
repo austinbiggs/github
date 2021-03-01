@@ -31,7 +31,7 @@
     "react-bootstrap": "^1.4.0",
     "react-dom": "^16.14.0",
     "react-hook-form": "^6.9.6",
-    "react-i18next": "^11.7.3",
+    "react-i18next": "^11.8.8",
     "sass": "^1.28.0",
     "serialize-javascript": "^5.0.1"
   },
