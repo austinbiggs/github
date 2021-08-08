@@ -36,7 +36,7 @@
     "serialize-javascript": "^5.0.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.3",
+    "@babel/core": "^7.15.0",
     "@types/classnames": "^2.3.1",
     "@types/node": "^14.14.31",
     "@types/react": "^17.0.16",
