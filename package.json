@@ -14,7 +14,7 @@
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.0.0",
     "@testing-library/react-hooks": "^7.0.1",
-    "@testing-library/user-event": "^12.1.10",
+    "@testing-library/user-event": "^13.2.1",
     "@types/lodash": "^4.14.172",
     "@webdeb/next-styles": "^1.1.0",
     "@zeit/next-typescript": "^1.1.1",
