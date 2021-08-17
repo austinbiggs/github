@@ -16,7 +16,6 @@
     "@testing-library/react-hooks": "^7.0.1",
     "@testing-library/user-event": "^13.2.1",
     "@types/lodash": "^4.14.172",
-    "@webdeb/next-styles": "^1.1.0",
     "@zeit/next-typescript": "^1.1.1",
     "bootswatch": "^5.1.0",
     "classnames": "^2.2.6",
