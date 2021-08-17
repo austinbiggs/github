@@ -11,10 +11,9 @@
     "airbnb/hooks",
     "plugin:chai-expect/recommended",
     "plugin:security/recommended",
+    "plugin:testing-library/react",
     "plugin:@typescript-eslint/recommended",
-    "prettier",
-    "prettier/react",
-    "prettier/@typescript-eslint"
+    "prettier"
   ],
   "ignorePatterns": ["dist/", "generated/", "vendor/"],
   "overrides": [
@@ -43,9 +42,11 @@
     "react",
     "react-hooks",
     "security",
+    "testing-library",
     "@typescript-eslint"
   ],
   "rules": {
+    "arrow-body-style": "off",
     "default-case": "off",
     "func-names": "off",
     "no-loops/no-loops": 2,
@@ -68,7 +69,8 @@
     "import/no-cycle": "off",
     "no-undef": "off",
     "@typescript-eslint/explicit-function-return-type": "off",
-    "@typescript-eslint/no-use-before-define": "off",
+    "no-use-before-define": "off",
+    "@typescript-eslint/no-use-before-define": "warn",
     "react/jsx-filename-extension": [
       "error",
       {
@@ -224,6 +226,7 @@
     "@typescript-eslint/no-explicit-any": "warn",
     "@typescript-eslint/no-namespace": "warn",
     "@typescript-eslint/no-non-null-assertion": "warn",
+    "no-unused-vars": "off",
     "@typescript-eslint/no-unused-vars": [
       "warn",
       {
@@ -242,6 +245,10 @@
       "@typescript-eslint/parser": [".ts", ".tsx", ".d.ts"]
     },
     "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx", ".d.ts", ".ts", ".tsx"],
+        "moduleDirectory": ["frontend", "node_modules"]
+      },
       "typescript": {
         "alwaysTryTypes": true
       }

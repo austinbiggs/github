@@ -2,7 +2,7 @@ import * as React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { Search } from "components/search";
 
-import styles from "./home/style.m.scss";
+import styles from "./home/style.module.scss";
 
 const Home = () => {
   return (

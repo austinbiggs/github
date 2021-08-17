@@ -6,7 +6,7 @@ import { Button, Card, Col, Row, Spinner } from "react-bootstrap";
 import { Props, Repository } from "../types";
 
 import { RepoModal } from "./modal";
-import styles from "./style.m.scss";
+import styles from "./style.module.scss";
 
 const Results = (props: Props) => {
   const { loading, searchTerm } = props;
