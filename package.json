@@ -50,7 +50,7 @@
     "eslint-config-next": "11.1.0",
     "faker": "^5.5.3",
     "graphqurl": "^1.0.1",
-    "husky": "^7.0.1",
+    "husky": "^7.0.2",
     "i18next": "^20.4.0",
     "jest": "^27.0.6",
     "lint-staged": "^11.1.2",
