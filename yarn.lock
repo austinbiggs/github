@@ -4296,10 +4296,10 @@ hyperlinker@^1.0.0:
   resolved "https://registry.yarnpkg.com/hyperlinker/-/hyperlinker-1.0.0.tgz#23dc9e38a206b208ee49bc2d6c8ef47027df0c0e"
   integrity sha512-Ty8UblRWFEcfSuIaajM34LdPXIhbs1ajEX/BBPv24J+enSVaEVY63xQ6lTO9VRYS5LAoghIG0IDJ+p+IPzKUQQ==
 
-i18next@^20.6.1:
-  version "20.6.1"
-  resolved "https://registry.yarnpkg.com/i18next/-/i18next-20.6.1.tgz#535e5f6e5baeb685c7d25df70db63bf3cc0aa345"
-  integrity sha512-yCMYTMEJ9ihCwEQQ3phLo7I/Pwycf8uAx+sRHwwk5U9Aui/IZYgQRyMqXafQOw5QQ7DM1Z+WyEXWIqSuJHhG2A==
+i18next@^21.2.3:
+  version "21.2.3"
+  resolved "https://registry.yarnpkg.com/i18next/-/i18next-21.2.3.tgz#58730f8b391a3ea880ccbab7052de6012cae40b1"
+  integrity sha512-aOYql7b9dvcSlkp9mDBFiLPv3+3TVAbXM06lgGL8xWCf5yd0QlgQvvvyCin24WR4EMl4eiu+vijKdblYKs3kfw==
   dependencies:
     "@babel/runtime" "^7.12.0"
 
