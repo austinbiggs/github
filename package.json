@@ -17,7 +17,7 @@
     "@testing-library/user-event": "^13.2.1",
     "@types/lodash": "^4.14.175",
     "@zeit/next-typescript": "^1.1.1",
-    "bootswatch": "^5.1.1",
+    "bootswatch": "^5.1.2",
     "classnames": "^2.2.6",
     "dotenv": "^10.0.0",
     "eslint-plugin-no-loops": "^0.3.0",
