@@ -9,7 +9,7 @@
     "test": "jest --watch"
   },
   "dependencies": {
-    "@apollo/client": "^3.4.16",
+    "@apollo/client": "^3.4.17",
     "@testing-library/dom": "^8.11.1",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.1.2",
