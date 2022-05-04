@@ -58,7 +58,7 @@
     "prettier": "2.5.1",
     "sinon": "^13.0.1",
     "sinon-chai": "^3.7.0",
-    "stylelint": "^14.5.0",
+    "stylelint": "^14.8.2",
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-standard": "^25.0.0",
     "typescript": "latest"
