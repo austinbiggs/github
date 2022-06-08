@@ -28,23 +28,23 @@
     tslib "^2.3.0"
     zen-observable-ts "^1.2.0"
 
-"@apollo/client@~3.2.5 || ~3.3.0 || ~3.4.0":
-  version "3.4.17"
-  resolved "https://registry.yarnpkg.com/@apollo/client/-/client-3.4.17.tgz#4972e19a49809e16d17c5adc67f45623a6dac135"
-  integrity sha512-MDt2rwMX1GqodiVEKJqmDmAz8xr0qJmq5PdWeIt0yDaT4GOkKYWZiWkyfhfv3raTk8PyJvbsNG9q2CqmUrlGfg==
+"@apollo/client@~3.2.5 || ~3.3.0 || ~3.4.0 || ~3.5.0 || ~3.6.0":
+  version "3.6.6"
+  resolved "https://registry.yarnpkg.com/@apollo/client/-/client-3.6.6.tgz#3fb1f5b11da9a64b51b5a86b62450bee034e7f41"
+  integrity sha512-AzNLN043wy0bDTTR9wzKYSu+I1IT2Ox3+vWckxgIt88Jfw5jHBvumf3lXE1JlgvbFCTiKS/Sa66AadQXWMVBRQ==
   dependencies:
-    "@graphql-typed-document-node/core" "^3.0.0"
+    "@graphql-typed-document-node/core" "^3.1.1"
     "@wry/context" "^0.6.0"
     "@wry/equality" "^0.5.0"
     "@wry/trie" "^0.3.0"
-    graphql-tag "^2.12.3"
+    graphql-tag "^2.12.6"
     hoist-non-react-statics "^3.3.2"
     optimism "^0.16.1"
     prop-types "^15.7.2"
     symbol-observable "^4.0.0"
-    ts-invariant "^0.9.0"
+    ts-invariant "^0.10.3"
     tslib "^2.3.0"
-    zen-observable-ts "~1.1.0"
+    zen-observable-ts "^1.2.5"
 
 "@babel/code-frame@7.12.11":
   version "7.12.11"
@@ -506,35 +506,40 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@graphql-tools/merge@^8.1.0":
-  version "8.1.0"
-  resolved "https://registry.yarnpkg.com/@graphql-tools/merge/-/merge-8.1.0.tgz#e8bdf860f63880ff657cb85de4ac6ab078db67ab"
-  integrity sha512-Lza419UHgnn0w42wLpviHYmg/k42bdxTsguAaUwfrgMbJ99nyx8/1Owu1ij6k1bc5RN0YynS5N/rLGw7skw8vQ==
+"@graphql-tools/merge@8.2.14":
+  version "8.2.14"
+  resolved "https://registry.yarnpkg.com/@graphql-tools/merge/-/merge-8.2.14.tgz#44811e5453f5515d9537bd1b64f0f0cfe6313a45"
+  integrity sha512-od6lTF732nwPX91G79eiJf+dyRBHxCaKe7QL4IYeH4d1k+NYqx/ihYpFJNjDaqxmpHH92Hr+TxsP9SYRK3/QKg==
   dependencies:
-    "@graphql-tools/utils" "^8.2.0"
-    tslib "~2.3.0"
+    "@graphql-tools/utils" "8.6.13"
+    tslib "^2.4.0"
 
-"@graphql-tools/schema@^8.2.0":
-  version "8.2.0"
-  resolved "https://registry.yarnpkg.com/@graphql-tools/schema/-/schema-8.2.0.tgz#ae75cbb2df6cee9ed6d89fce56be467ab23758dc"
-  integrity sha512-ufmI5mJQa8NJczzfkh0pUttKvspqDcT5LLakA3jUmOrrE4d4NVj6onZlazdTzF5sAepSNqanFnwhrxZpCAJMKg==
+"@graphql-tools/schema@8.3.14":
+  version "8.3.14"
+  resolved "https://registry.yarnpkg.com/@graphql-tools/schema/-/schema-8.3.14.tgz#0aeab46daab70fb7505c950dc7e83a3da0eeb7ce"
+  integrity sha512-ntA4pKwyyPHFFKcIw17FfqGZAiTNZl0tHieQpPIkN5fPc4oHcXOfaj1vBjtIC/Qn6H7XBBu3l2kMA8FpobdxTQ==
   dependencies:
-    "@graphql-tools/merge" "^8.1.0"
-    "@graphql-tools/utils" "^8.2.0"
-    tslib "~2.3.0"
-    value-or-promise "1.0.10"
+    "@graphql-tools/merge" "8.2.14"
+    "@graphql-tools/utils" "8.6.13"
+    tslib "^2.4.0"
+    value-or-promise "1.0.11"
 
-"@graphql-tools/utils@^8.2.0":
-  version "8.2.1"
-  resolved "https://registry.yarnpkg.com/@graphql-tools/utils/-/utils-8.2.1.tgz#381e79fa04041f91f132d252216adcb3970e3c1e"
-  integrity sha512-xjyetFpDy2/MY8P4+NiE7i1czCrAI36Twjm+jcoBfPctMnJegZkZnLfepmjwYQ92Sv9hnhr+x52OUQAddj29CQ==
+"@graphql-tools/utils@8.6.13":
+  version "8.6.13"
+  resolved "https://registry.yarnpkg.com/@graphql-tools/utils/-/utils-8.6.13.tgz#2b4fb7f9f8a29b25eecd44551fb95974de32f969"
+  integrity sha512-FiVqrQzj4cgz0HcZ3CxUs8NtBGPZFpmsVyIgwmL6YCwIhjJQnT72h8G3/vk5zVfjfesht85YGp0inWWuoCKWzg==
   dependencies:
-    tslib "~2.3.0"
+    tslib "^2.4.0"
 
 "@graphql-typed-document-node/core@^3.0.0":
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/@graphql-typed-document-node/core/-/core-3.1.0.tgz#0eee6373e11418bfe0b5638f654df7a4ca6a3950"
   integrity sha512-wYn6r8zVZyQJ6rQaALBEln5B1pzxb9shV5Ef97kTvn6yVGrqyXVnDqnU24MXnFubR+rZjBY9NWuxX3FB2sTsjg==
+
+"@graphql-typed-document-node/core@^3.1.1":
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/@graphql-typed-document-node/core/-/core-3.1.1.tgz#076d78ce99822258cf813ecc1e7fa460fa74d052"
+  integrity sha512-NQ17ii0rK1b34VZonlmT2QMJFI70m0TRwbknO/ihlbatXyaktDhN/98vBiUU6kNBPljqGqyIrl2T4nY2RpFANg==
 
 "@humanwhocodes/config-array@^0.5.0":
   version "0.5.0"
@@ -1281,11 +1286,6 @@
   integrity sha512-T8Yc9wt/5LbJyCaLiHPReJa0kApcIgJ7Bn735GjItUfh08Z1pJvu8QZqb9s+mMvKV6WUQRV7K2R46YbjMXTTJw==
   dependencies:
     "@types/yargs-parser" "*"
-
-"@types/zen-observable@0.8.3":
-  version "0.8.3"
-  resolved "https://registry.yarnpkg.com/@types/zen-observable/-/zen-observable-0.8.3.tgz#781d360c282436494b32fe7d9f7f8e64b3118aa3"
-  integrity sha512-fbF6oTd4sGGy0xjHPKAt+eS2CrxJ3+6gQ3FGcBoIJR2TLAyCkCyI8JqZNy+FeON0AhVgNJoUumVoZQjBFUqHkw==
 
 "@typescript-eslint/eslint-plugin@^4.0.0":
   version "4.0.0"
@@ -3572,15 +3572,22 @@ graphql-tag@^2.12.3:
   dependencies:
     tslib "^2.1.0"
 
-graphql-tools@^8.2.0:
-  version "8.2.0"
-  resolved "https://registry.yarnpkg.com/graphql-tools/-/graphql-tools-8.2.0.tgz#493edc2760469f39d8334c6f20aa75ae91a7ab86"
-  integrity sha512-9axT/0exEzVCk+vMPykOPannlrA4VQNo6nuWgh25IJ5arPf92OKxvjSHAbm7dQIFmcWxE0hVvyD2rWHjDqZCgQ==
+graphql-tag@^2.12.6:
+  version "2.12.6"
+  resolved "https://registry.yarnpkg.com/graphql-tag/-/graphql-tag-2.12.6.tgz#d441a569c1d2537ef10ca3d1633b48725329b5f1"
+  integrity sha512-FdSNcu2QQcWnM2VNvSCCDCVS5PpPqpzgFT8+GXzqJuoDd0CBncxCY278u4mhRO7tMgo2JjgJA5aZ+nWSQ/Z+xg==
   dependencies:
-    "@graphql-tools/schema" "^8.2.0"
-    tslib "~2.3.0"
+    tslib "^2.1.0"
+
+graphql-tools@^8.2.12:
+  version "8.2.12"
+  resolved "https://registry.yarnpkg.com/graphql-tools/-/graphql-tools-8.2.12.tgz#0b5dd71099db7312dd55dbe7d9a1ba70a13404d2"
+  integrity sha512-aZ9kZ0YI2rv0YNojnUtJQbtGkZtJYMFmWmBNn9XOP+nwZuv6j+Byr/teVlrmA0I1t+3+WE64lfcgxmwNo3frUg==
+  dependencies:
+    "@graphql-tools/schema" "8.3.14"
+    tslib "^2.4.0"
   optionalDependencies:
-    "@apollo/client" "~3.2.5 || ~3.3.0 || ~3.4.0"
+    "@apollo/client" "~3.2.5 || ~3.3.0 || ~3.4.0 || ~3.5.0 || ~3.6.0"
 
 graphql@15.4.0:
   version "15.4.0"
@@ -6928,7 +6935,14 @@ trim-right@^1.0.1:
   resolved "https://registry.yarnpkg.com/trim-right/-/trim-right-1.0.1.tgz#cb2e1203067e0c8de1f614094b9fe45704ea6003"
   integrity sha1-yy4SAwZ+DI3h9hQJS5/kVwTqYAM=
 
-ts-invariant@^0.9.0, ts-invariant@^0.9.4:
+ts-invariant@^0.10.3:
+  version "0.10.3"
+  resolved "https://registry.yarnpkg.com/ts-invariant/-/ts-invariant-0.10.3.tgz#3e048ff96e91459ffca01304dbc7f61c1f642f6c"
+  integrity sha512-uivwYcQaxAucv1CzRp2n/QdYPo4ILf9VXgH19zEIjFx2EJufV16P0JtJVpYHy89DItG6Kwj2oIUjrcK5au+4tQ==
+  dependencies:
+    tslib "^2.1.0"
+
+ts-invariant@^0.9.4:
   version "0.9.4"
   resolved "https://registry.yarnpkg.com/ts-invariant/-/ts-invariant-0.9.4.tgz#42ac6c791aade267dd9dc65276549df5c5d71cac"
   integrity sha512-63jtX/ZSwnUNi/WhXjnK8kz4cHHpYS60AnmA6ixz17l7E12a5puCWFlNpkne5Rl0J8TBPVHpGjsj4fxs8ObVLQ==
@@ -6960,10 +6974,10 @@ tslib@^1.8.1, tslib@^1.9.3:
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.13.0.tgz#c881e13cc7015894ed914862d276436fa9a47043"
   integrity sha512-i/6DQjL8Xf3be4K/E6Wgpekn5Qasl1usyw++dAA35Ue5orEn65VIxOA+YvNNl9HV3qv70T7CNwjODHZrLwvd1Q==
 
-tslib@^2.0.0, tslib@^2.1.0, tslib@^2.3.0, tslib@~2.3.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.3.0.tgz#803b8cdab3e12ba581a4ca41c8839bbb0dacb09e"
-  integrity sha512-N82ooyxVNm6h1riLCoyS9e3fuJ3AMG2zIZs2Gd1ATcSFjSA23Q0fzjjZeh0jbJvWVDZ0cJT8yaNNaaXHzueNjg==
+tslib@^2.0.0, tslib@^2.1.0, tslib@^2.3.0, tslib@^2.4.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.4.0.tgz#7cecaa7f073ce680a05847aa77be941098f36dc3"
+  integrity sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==
 
 tsutils@^3.17.1:
   version "3.17.1"
@@ -7146,10 +7160,10 @@ validate-npm-package-license@^3.0.1:
     spdx-correct "^3.0.0"
     spdx-expression-parse "^3.0.0"
 
-value-or-promise@1.0.10:
-  version "1.0.10"
-  resolved "https://registry.yarnpkg.com/value-or-promise/-/value-or-promise-1.0.10.tgz#5bf041f1e9a8e7043911875547636768a836e446"
-  integrity sha512-1OwTzvcfXkAfabk60UVr5NdjtjJ0Fg0T5+B1bhxtrOEwSH2fe8y4DnLgoksfCyd8yZCOQQHB0qLMQnwgCjbXLQ==
+value-or-promise@1.0.11:
+  version "1.0.11"
+  resolved "https://registry.yarnpkg.com/value-or-promise/-/value-or-promise-1.0.11.tgz#3e90299af31dd014fe843fe309cefa7c1d94b140"
+  integrity sha512-41BrgH+dIbCFXClcSapVs5M6GkENd3gQOJpEfPDNa71LsUGMXDL0jMWpI/Rh7WhX+Aalfz2TTS3Zt5pUsbnhLg==
 
 vary@~1.1.2:
   version "1.1.2"
@@ -7448,12 +7462,11 @@ zen-observable-ts@^1.2.0:
   dependencies:
     zen-observable "0.8.15"
 
-zen-observable-ts@~1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/zen-observable-ts/-/zen-observable-ts-1.1.0.tgz#2d1aa9d79b87058e9b75698b92791c1838551f83"
-  integrity sha512-1h4zlLSqI2cRLPJUHJFL8bCWHhkpuXkF+dbGkRaWjgDIG26DmzyshUMrdV/rL3UnR+mhaX4fRq8LPouq0MYYIA==
+zen-observable-ts@^1.2.5:
+  version "1.2.5"
+  resolved "https://registry.yarnpkg.com/zen-observable-ts/-/zen-observable-ts-1.2.5.tgz#6c6d9ea3d3a842812c6e9519209365a122ba8b58"
+  integrity sha512-QZWQekv6iB72Naeake9hS1KxHlotfRpe+WGNbNx5/ta+R3DNjVO2bswf63gXlWDcs+EMd7XY8HfVQyP1X6T4Zg==
   dependencies:
-    "@types/zen-observable" "0.8.3"
     zen-observable "0.8.15"
 
 zen-observable@0.8.15:
