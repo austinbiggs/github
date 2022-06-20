@@ -29,7 +29,7 @@
     "react": "^17.0.2",
     "react-bootstrap": "^2.1.2",
     "react-dom": "^17.0.2",
-    "react-hook-form": "^7.27.0",
+    "react-hook-form": "^7.32.2",
     "react-i18next": "^11.15.4",
     "sass": "^1.49.7",
     "serialize-javascript": "^6.0.0"
