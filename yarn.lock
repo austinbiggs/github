@@ -1945,10 +1945,10 @@ body-parser@1.18.2:
     raw-body "2.3.2"
     type-is "~1.6.15"
 
-bootswatch@^5.1.3:
-  version "5.1.3"
-  resolved "https://registry.yarnpkg.com/bootswatch/-/bootswatch-5.1.3.tgz#aa6bd96acbaff9d5f7b1215a8ae00b68d918a26f"
-  integrity sha512-NmZFN6rOCoXWQ/PkzmD8FFWDe24kocX9OXWHNVaLxVVnpqpAzEbMFsf8bAfKwVtpNXibasZCzv09B5fLieAh2g==
+bootswatch@^5.2.1:
+  version "5.2.1"
+  resolved "https://registry.yarnpkg.com/bootswatch/-/bootswatch-5.2.1.tgz#80c49ac3ad394e58be630978c95e3bce1d1679ac"
+  integrity sha512-tbuZb0nJ1XUvRO8KYoEULsbAlAqazcFS6S5dTeJOkw2RxQgg0RJqKkngRTfNSFfqfI4mTdFPpC4mKkaw0YoDFA==
 
 brace-expansion@^1.1.7:
   version "1.1.11"
