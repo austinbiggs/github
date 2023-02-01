@@ -31,7 +31,7 @@
     "react-dom": "^17.0.2",
     "react-hook-form": "^7.27.0",
     "react-i18next": "^11.15.4",
-    "sass": "^1.49.7",
+    "sass": "^1.58.0",
     "serialize-javascript": "^6.0.0"
   },
   "devDependencies": {
