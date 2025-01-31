@@ -1,0 +1,25 @@
+name: Set Up Project
+
+runs:
+  using: 'composite'
+  steps:
+    - name: 'Derive appropriate SHAs for base and head for `nx affected` commands'
+      uses: nrwl/nx-set-shas@e2e6dc8bce4b0387a05eb687735c39c41580b792 # v4
+
+    - name: 'Setup Node'
+      uses: actions/setup-node@39370e3970a6d050c480ffad4ff0ed4d3fdee5af # v4
+      with:
+        node-version-file: '.nvmrc'
+        cache: 'yarn'
+
+    - name: 'Cache dependencies'
+      uses: actions/cache@1bd1e32a3bdc45362d1e726936510720a7c30a57 # v4
+      with:
+        path: ~/.npm
+        key: ${{ runner.os }}-node-${{ hashFiles('**/yarn.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-node-
+
+    - name: 'Install dependencies'
+      shell: bash
+      run: yarn install --immutable
