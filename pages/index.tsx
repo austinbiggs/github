@@ -3,6 +3,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import { Search } from "components/search";
 
 import styles from "./home/style.module.scss";
+import Image from "next/image";
 
 const Home = () => {
   return (
@@ -10,7 +11,7 @@ const Home = () => {
       <Container>
         <Row className="justify-content-md-center">
           <Col xs={8} sm={8} md={8} lg={8} xl={8}>
-            <img
+            <Image
               className={styles.logo}
               alt="Github Logo"
               src="/images/github-logo.png"
