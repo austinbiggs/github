@@ -3,7 +3,7 @@ import * as React from "react";
 
 import { client } from "./client";
 
-const Provider: React.FC = (props) => {
+const Provider: React.FC = (props: React.PropsWithChildren) => {
   return <ApolloProvider client={client()}>{props.children}</ApolloProvider>;
 };
 
