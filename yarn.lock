@@ -7737,7 +7737,7 @@ __metadata:
     lint-staged: "npm:12.5.0"
     lodash: "npm:4.17.21"
     next: "npm:15.1.6"
-    prettier: "npm:2.5.1"
+    prettier: "npm:3.4.2"
     react: "npm:19.0.0"
     react-bootstrap: "npm:2.1.2"
     react-dom: "npm:19.0.0"
@@ -8488,12 +8488,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:2.5.1":
-  version: 2.5.1
-  resolution: "prettier@npm:2.5.1"
+"prettier@npm:3.4.2":
+  version: 3.4.2
+  resolution: "prettier@npm:3.4.2"
   bin:
-    prettier: bin-prettier.js
-  checksum: 10c0/fa9750193b3fcdb4bd54ba4e57996d335de4cd492d277539b6ffb6d146c8b6d3c3dc264b75021914c99c91574643637f607da08ef4588ef30a7b78d14326f470
+    prettier: bin/prettier.cjs
+  checksum: 10c0/99e076a26ed0aba4ebc043880d0f08bbb8c59a4c6641cdee6cdadf2205bdd87aa1d7823f50c3aea41e015e99878d37c58d7b5f0e663bba0ef047f94e36b96446
   languageName: node
   linkType: hard
 
