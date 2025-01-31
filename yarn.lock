@@ -7749,7 +7749,7 @@ __metadata:
     sinon-chai: "npm:3.7.0"
     stylelint: "npm:14.16.1"
     stylelint-config-prettier: "npm:9.0.5"
-    stylelint-config-standard: "npm:25.0.0"
+    stylelint-config-standard: "npm:37.0.0"
     typescript: "npm:latest"
   languageName: unknown
   linkType: soft
@@ -9909,23 +9909,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stylelint-config-recommended@npm:^7.0.0":
-  version: 7.0.0
-  resolution: "stylelint-config-recommended@npm:7.0.0"
+"stylelint-config-recommended@npm:^15.0.0":
+  version: 15.0.0
+  resolution: "stylelint-config-recommended@npm:15.0.0"
   peerDependencies:
-    stylelint: ^14.4.0
-  checksum: 10c0/11ec1d5721143fa35451b172ced61660f0f0204954273f59a06d5439075d48414f8257aa3cfc474116bcd56ca42c1485fc3bcf550ef39e5a72cbfdd4ac32acc6
+    stylelint: ^16.13.0
+  checksum: 10c0/de82e675e7d0cdbc486beee1f76002d5a5676247c1780fbe04f6adb617b016033f18f3361f4e99a76fc4d2115fbfc97786d9cf87ee7d90a345e146de35b04ab8
   languageName: node
   linkType: hard
 
-"stylelint-config-standard@npm:25.0.0":
-  version: 25.0.0
-  resolution: "stylelint-config-standard@npm:25.0.0"
+"stylelint-config-standard@npm:37.0.0":
+  version: 37.0.0
+  resolution: "stylelint-config-standard@npm:37.0.0"
   dependencies:
-    stylelint-config-recommended: "npm:^7.0.0"
+    stylelint-config-recommended: "npm:^15.0.0"
   peerDependencies:
-    stylelint: ^14.4.0
-  checksum: 10c0/fbc1d75a37f3dbd0e93fa14559fe5c1cb6b414369942c1cedb7dd3faefebeaf43fab97f125f7769326c928f4939f2d3c87243c8da90c5c857dbc7fd8ed61ffa7
+    stylelint: ^16.13.0
+  checksum: 10c0/99c184384126f8676061c857e36d6d58fd9b391c1c1ec94a3f019c23ba1e0dc7665fc064a630f6ee66bc8624a6fd850fc7ab33ff086f5fde7b46d4ae0d92edf5
   languageName: node
   linkType: hard
 
