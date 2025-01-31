@@ -1,0 +1,13 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:best-practices"],
+  "branchConcurrentLimit": 15,
+  "prConcurrentLimit": 15,
+  "prCreation": "not-pending",
+  "hostRules": [
+    {
+      "matchHost": "github.com",
+      "concurrentRequestLimit": 10
+    }
+  ]
+}
