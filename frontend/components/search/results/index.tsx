@@ -1,5 +1,5 @@
 import * as React from "react";
-import classNames from "classnames";
+import { clsx } from "clsx";
 import { isEmpty, truncate } from "lodash";
 import { Button, Card, Col, Row, Spinner } from "react-bootstrap";
 
@@ -29,11 +29,11 @@ const Results = (props: Props) => {
     <Col className={styles.repository} key={repository.nameWithOwner}>
       <Card>
         <Card.Header>
-          <a href={repository.owner.url} target="_blank">
+          <a href={repository.owner.url} target="_blank" rel="noreferrer">
             {repository.owner.login}
           </a>
           /
-          <a href={repository.url} target="_blank">
+          <a href={repository.url} target="_blank" rel="noreferrer">
             {repository.name}
           </a>
         </Card.Header>
@@ -70,9 +70,7 @@ const Results = (props: Props) => {
 
   return (
     <>
-      <Row
-        className={classNames("justify-content-md-center", [styles.repository])}
-      >
+      <Row className={clsx("justify-content-md-center", [styles.repository])}>
         {loading ? renderLoading() : renderResults()}
       </Row>
 

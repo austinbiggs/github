@@ -1960,15 +1960,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/classnames@npm:2.3.4":
-  version: 2.3.4
-  resolution: "@types/classnames@npm:2.3.4"
-  dependencies:
-    classnames: "npm:*"
-  checksum: 10c0/25de08662e5c68314d23527671a29c2125e399c015d67ffd4b304aa3330f1aacd452bcc74964e04eaad35999c4d474ded4fbb8c4c920026e43783f76560d6b0c
-  languageName: node
-  linkType: hard
-
 "@types/eslint-visitor-keys@npm:^1.0.0":
   version: 1.0.0
   resolution: "@types/eslint-visitor-keys@npm:1.0.0"
@@ -3562,17 +3553,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"classnames@npm:*, classnames@npm:^2.3.1":
+"classnames@npm:^2.3.1":
   version: 2.5.1
   resolution: "classnames@npm:2.5.1"
   checksum: 10c0/afff4f77e62cea2d79c39962980bf316bacb0d7c49e13a21adaadb9221e1c6b9d3cdb829d8bb1b23c406f4e740507f37e1dcf506f7e3b7113d17c5bab787aa69
-  languageName: node
-  linkType: hard
-
-"classnames@npm:2.2.6":
-  version: 2.2.6
-  resolution: "classnames@npm:2.2.6"
-  checksum: 10c0/04fe84deb40e4f4fcee688494ced342b048a6992506cd3da81efb773b03f6d8120f9b893e6eb8a0bc7c6fb38edd66b4751e413ab4672ed93b2c59a4e2bd1068a
   languageName: node
   linkType: hard
 
@@ -3669,6 +3653,13 @@ __metadata:
     strip-ansi: "npm:^6.0.0"
     wrap-ansi: "npm:^7.0.0"
   checksum: 10c0/6035f5daf7383470cef82b3d3db00bec70afb3423538c50394386ffbbab135e26c3689c41791f911fa71b62d13d3863c712fdd70f0fbdffd938a1e6fd09aac00
+  languageName: node
+  linkType: hard
+
+"clsx@npm:2.1.1":
+  version: 2.1.1
+  resolution: "clsx@npm:2.1.1"
+  checksum: 10c0/c4c8eb865f8c82baab07e71bfa8897c73454881c4f99d6bc81585aecd7c441746c1399d08363dc096c550cceaf97bd4ce1e8854e1771e9998d9f94c4fe075839
   languageName: node
   linkType: hard
 
@@ -8135,7 +8126,6 @@ __metadata:
     "@testing-library/react": "npm:12.1.2"
     "@testing-library/react-hooks": "npm:7.0.2"
     "@testing-library/user-event": "npm:13.5.0"
-    "@types/classnames": "npm:2.3.4"
     "@types/lodash": "npm:4.14.178"
     "@types/node": "npm:22.12.0"
     "@types/react": "npm:17.0.39"
@@ -8147,7 +8137,7 @@ __metadata:
     babel-jest: "npm:27.5.1"
     bootswatch: "npm:5.1.3"
     chai: "npm:4.5.0"
-    classnames: "npm:2.2.6"
+    clsx: "npm:2.1.1"
     dotenv: "npm:16.0.0"
     dotenv-webpack: "npm:7.1.1"
     eslint: "npm:7.32.0"
