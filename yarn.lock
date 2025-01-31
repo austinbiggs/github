@@ -5508,10 +5508,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"graphql@npm:16.3.0":
-  version: 16.3.0
-  resolution: "graphql@npm:16.3.0"
-  checksum: 10c0/71f205c16c93a5085c8a5dc3f9a1a27c022140208042d5be1dfacf04c1d3063ec2f62e3d08b0ed2cfb536c59cca65dd027556a22c47082fc348a5050c5535c71
+"graphql@npm:16.8.1":
+  version: 16.8.1
+  resolution: "graphql@npm:16.8.1"
+  checksum: 10c0/129c318156b466f440914de80dbf7bc67d17f776f2a088a40cb0da611d19a97c224b1c6d2b13cbcbc6e5776e45ed7468b8432f9c3536724e079b44f1a3d57a8a
   languageName: node
   linkType: hard
 
@@ -7727,7 +7727,7 @@ __metadata:
     eslint-config-next: "npm:12.0.10"
     eslint-plugin-no-loops: "npm:0.3.0"
     faker: "npm:5.5.3"
-    graphql: "npm:16.3.0"
+    graphql: "npm:16.8.1"
     graphql-tools: "npm:8.2.0"
     graphqurl: "npm:1.0.3"
     husky: "npm:7.0.4"
