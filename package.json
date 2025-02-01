@@ -52,7 +52,7 @@
     "jest": "27.5.1",
     "lint-staged": "12.5.0",
     "prettier": "3.4.2",
-    "sinon": "13.0.2",
+    "sinon": "19.0.2",
     "sinon-chai": "4.0.0",
     "stylelint": "14.16.1",
     "stylelint-config-prettier": "9.0.5",
