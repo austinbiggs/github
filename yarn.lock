@@ -4639,12 +4639,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-no-loops@npm:0.3.0":
-  version: 0.3.0
-  resolution: "eslint-plugin-no-loops@npm:0.3.0"
+"eslint-plugin-no-loops@npm:0.4.0":
+  version: 0.4.0
+  resolution: "eslint-plugin-no-loops@npm:0.4.0"
   peerDependencies:
-    eslint: ">=2.0.0"
-  checksum: 10c0/eabdd60a625e4d3b4d87707896d7d216e23d473584ad4ddb314352e0b5afb533e4358007ec496074d52f085e9e7a982df5d43d515b820b41a5ca735a9751b1d0
+    eslint: ">=9"
+  checksum: 10c0/e3e3b9cd59478784f52f46377645932a616e41c41b0819dd6a3205af30c6f9c102f302a36d762e21dd7e1fece12e7a040567014083f25c5cf85cce5609c6fb0f
   languageName: node
   linkType: hard
 
@@ -7912,7 +7912,7 @@ __metadata:
     dotenv-webpack: "npm:8.1.0"
     eslint: "npm:9.19.0"
     eslint-config-next: "npm:12.3.4"
-    eslint-plugin-no-loops: "npm:0.3.0"
+    eslint-plugin-no-loops: "npm:0.4.0"
     graphql: "npm:16.10.0"
     graphql-tools: "npm:8.3.20"
     graphqurl: "npm:1.0.3"
