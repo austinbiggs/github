@@ -4215,14 +4215,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dotenv-webpack@npm:7.1.1":
-  version: 7.1.1
-  resolution: "dotenv-webpack@npm:7.1.1"
+"dotenv-webpack@npm:8.1.0":
+  version: 8.1.0
+  resolution: "dotenv-webpack@npm:8.1.0"
   dependencies:
     dotenv-defaults: "npm:^2.0.2"
   peerDependencies:
     webpack: ^4 || ^5
-  checksum: 10c0/49ffff039369c3192acfdf4a5c2d2fce5cef908e7ba56b5eb0dbc2e634eb3541ddba6242df2ed57ca42ab83a71bffd159e0352c8b26f017a8c44d41863995439
+  checksum: 10c0/7a64587fc96eba8e4ffccf56d6af09606611a32bc5cf04a37057b8c2881bcd11bf43c3395404581be734ae7fd2788471ceac76cb3d0ba1283e675223f98e5816
   languageName: node
   linkType: hard
 
@@ -7894,7 +7894,7 @@ __metadata:
     chai: "npm:5.1.2"
     clsx: "npm:2.1.1"
     dotenv: "npm:16.4.7"
-    dotenv-webpack: "npm:7.1.1"
+    dotenv-webpack: "npm:8.1.0"
     eslint: "npm:9.19.0"
     eslint-config-next: "npm:12.3.4"
     eslint-plugin-no-loops: "npm:0.3.0"

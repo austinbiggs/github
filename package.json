@@ -42,7 +42,7 @@
     "@babel/eslint-parser": "7.11.0",
     "babel-jest": "27.5.1",
     "chai": "5.1.2",
-    "dotenv-webpack": "7.1.1",
+    "dotenv-webpack": "8.1.0",
     "eslint": "9.19.0",
     "eslint-config-next": "12.3.4",
     "faker": "6.6.6",
