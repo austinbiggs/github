@@ -432,7 +432,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.14.5, @babel/runtime@npm:^7.23.2, @babel/runtime@npm:^7.24.7, @babel/runtime@npm:^7.26.0, @babel/runtime@npm:^7.5.5, @babel/runtime@npm:^7.6.3, @babel/runtime@npm:^7.8.7, @babel/runtime@npm:^7.9.2":
+"@babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.23.2, @babel/runtime@npm:^7.24.7, @babel/runtime@npm:^7.25.0, @babel/runtime@npm:^7.26.0, @babel/runtime@npm:^7.5.5, @babel/runtime@npm:^7.6.3, @babel/runtime@npm:^7.8.7, @babel/runtime@npm:^7.9.2":
   version: 7.26.7
   resolution: "@babel/runtime@npm:7.26.7"
   dependencies:
@@ -7928,7 +7928,7 @@ __metadata:
     react-bootstrap: "npm:2.10.9"
     react-dom: "npm:19.0.0"
     react-hook-form: "npm:7.54.2"
-    react-i18next: "npm:11.18.6"
+    react-i18next: "npm:15.4.0"
     sass: "npm:1.83.4"
     serialize-javascript: "npm:6.0.2"
     sinon: "npm:19.0.2"
@@ -8994,21 +8994,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-i18next@npm:11.18.6":
-  version: 11.18.6
-  resolution: "react-i18next@npm:11.18.6"
+"react-i18next@npm:15.4.0":
+  version: 15.4.0
+  resolution: "react-i18next@npm:15.4.0"
   dependencies:
-    "@babel/runtime": "npm:^7.14.5"
+    "@babel/runtime": "npm:^7.25.0"
     html-parse-stringify: "npm:^3.0.1"
   peerDependencies:
-    i18next: ">= 19.0.0"
+    i18next: ">= 23.2.3"
     react: ">= 16.8.0"
   peerDependenciesMeta:
     react-dom:
       optional: true
     react-native:
       optional: true
-  checksum: 10c0/ffc40b157e274bc26fc82fc82761290804fffba33ceed552eb5a8c8c80899ea93a3fa7af4b0d719a9f101f3e08aab6f4754df953f1b720a61aa0317f5459abca
+  checksum: 10c0/dc26e5a0f90f9038156e0908cb4489906d18dd2dedac6ec76d68cf6d545d9e070a3f450880548d0750caee5adf0653d7971fdabc9ef67c750d1c2df60be74d77
   languageName: node
   linkType: hard
 
