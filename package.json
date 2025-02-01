@@ -45,7 +45,7 @@
     "dotenv-webpack": "8.1.0",
     "eslint": "9.19.0",
     "eslint-config-next": "12.3.4",
-    "faker": "6.6.6",
+    "@faker-js/faker": "5.5.3",
     "graphqurl": "1.0.3",
     "husky": "9.1.7",
     "i18next": "24.2.2",
