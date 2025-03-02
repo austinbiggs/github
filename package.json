@@ -15,7 +15,7 @@
     "@testing-library/react": "16.2.0",
     "@testing-library/react-hooks": "8.0.1",
     "@testing-library/user-event": "14.6.1",
-    "@types/lodash": "4.17.15",
+    "@types/lodash": "4.17.16",
     "bootswatch": "5.3.3",
     "clsx": "2.1.1",
     "dotenv": "16.4.7",
