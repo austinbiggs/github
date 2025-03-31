@@ -81,5 +81,5 @@
   "repository": "git@github.com:austinbiggs/monarch.git",
   "author": "Austin Biggs <austintbiggs@gmail.com>",
   "license": "MIT",
-  "packageManager": "yarn@4.8.0"
+  "packageManager": "yarn@4.8.1"
 }
