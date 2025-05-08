@@ -5671,9 +5671,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"i18next@npm:24.2.3":
-  version: 24.2.3
-  resolution: "i18next@npm:24.2.3"
+"i18next@npm:25.1.2":
+  version: 25.1.2
+  resolution: "i18next@npm:25.1.2"
   dependencies:
     "@babel/runtime": "npm:^7.26.10"
   peerDependencies:
@@ -5681,7 +5681,7 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 10c0/7ac11a67d618ec714beef303aa497c1249bf5f1977dd3ebe9ca2673dfa6cadbba9e2d39ec1337688903ae3866ce9c1bc22cd6b265e66cce54c5db3a9bbedd390
+  checksum: 10c0/ba028411a201c5816d01215110f42d99133c4e77724ebf60c38087bfb367921ba5c4e4eb1e9a4b8456d9550d1f50278b13528012ad53d2936de9092a9dd4120d
   languageName: node
   linkType: hard
 
@@ -7447,7 +7447,7 @@ __metadata:
     graphql-tools: "npm:9.0.18"
     graphqurl: "npm:2.0.0"
     husky: "npm:9.1.7"
-    i18next: "npm:24.2.3"
+    i18next: "npm:25.1.2"
     isomorphic-unfetch: "npm:4.0.2"
     jest: "npm:29.7.0"
     lint-staged: "npm:15.5.1"
