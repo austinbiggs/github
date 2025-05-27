@@ -34,7 +34,7 @@
     "serialize-javascript": "6.0.2"
   },
   "devDependencies": {
-    "@babel/core": "7.27.1",
+    "@babel/core": "7.27.3",
     "@types/node": "22.15.21",
     "@types/react": "19.1.5",
     "@typescript-eslint/eslint-plugin": "8.32.1",
