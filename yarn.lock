@@ -3188,10 +3188,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bootswatch@npm:5.3.6":
-  version: 5.3.6
-  resolution: "bootswatch@npm:5.3.6"
-  checksum: 10c0/19d199e81e8dccc152a499b5fea4a87c610b1e13c5ec9e806a8ec84e1f161335516780674966fd42e5a531fb48011b9284169841c9394a423e7c2aaac35a3b6d
+"bootswatch@npm:5.3.7":
+  version: 5.3.7
+  resolution: "bootswatch@npm:5.3.7"
+  checksum: 10c0/647f8679ea570580eba31428b650940f022793a5ebad58f3bbde6a89fd8171ad6fb03fc304448e3241c7215543b602523e9705ae0d0c82c1a86ead68a89a3bba
   languageName: node
   linkType: hard
 
@@ -7400,7 +7400,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": "npm:8.35.0"
     "@typescript-eslint/parser": "npm:8.35.0"
     babel-jest: "npm:29.7.0"
-    bootswatch: "npm:5.3.6"
+    bootswatch: "npm:5.3.7"
     chai: "npm:5.2.0"
     clsx: "npm:2.1.1"
     dotenv: "npm:16.5.0"
