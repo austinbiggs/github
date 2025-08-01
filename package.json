@@ -54,7 +54,7 @@
     "prettier": "3.6.2",
     "sinon": "21.0.0",
     "sinon-chai": "4.0.0",
-    "stylelint": "16.22.0",
+    "stylelint": "16.23.0",
     "stylelint-config-prettier": "9.0.5",
     "stylelint-config-standard": "38.0.0",
     "typescript": "latest"
