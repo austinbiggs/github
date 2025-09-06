@@ -48,7 +48,7 @@
     "@faker-js/faker": "10.0.0",
     "graphqurl": "2.0.0",
     "husky": "9.1.7",
-    "i18next": "25.4.2",
+    "i18next": "25.5.2",
     "jest": "30.1.3",
     "lint-staged": "16.1.6",
     "prettier": "3.6.2",
