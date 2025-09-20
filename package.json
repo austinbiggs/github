@@ -43,7 +43,7 @@
     "babel-jest": "30.1.2",
     "chai": "6.0.1",
     "dotenv-webpack": "8.1.1",
-    "eslint": "9.35.0",
+    "eslint": "9.36.0",
     "eslint-config-next": "15.5.3",
     "@faker-js/faker": "10.0.0",
     "graphqurl": "2.0.0",
