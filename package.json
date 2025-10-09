@@ -30,7 +30,7 @@
     "react-dom": "19.1.1",
     "react-hook-form": "7.64.0",
     "react-i18next": "15.7.4",
-    "sass": "1.92.1",
+    "sass": "1.93.2",
     "serialize-javascript": "6.0.2"
   },
   "devDependencies": {
