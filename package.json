@@ -21,7 +21,7 @@
     "dotenv": "17.2.3",
     "eslint-plugin-no-loops": "0.4.0",
     "graphql": "16.11.0",
-    "graphql-tools": "9.0.20",
+    "graphql-tools": "9.0.21",
     "isomorphic-unfetch": "4.0.2",
     "lodash": "4.17.21",
     "next": "15.5.6",
