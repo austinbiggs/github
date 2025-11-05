@@ -58,9 +58,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@apollo/client@npm:~4.0.5":
-  version: 4.0.8
-  resolution: "@apollo/client@npm:4.0.8"
+"@apollo/client@npm:~4.0.9":
+  version: 4.0.9
+  resolution: "@apollo/client@npm:4.0.9"
   dependencies:
     "@graphql-typed-document-node/core": "npm:^3.1.1"
     "@wry/caches": "npm:^1.0.0"
@@ -85,7 +85,7 @@ __metadata:
       optional: true
     subscriptions-transport-ws:
       optional: true
-  checksum: 10c0/3c8976dd8489ee804ede5f9c4cfaf7e1f432b2541ced9c078da4fa726c47ff3be960b50d4c7612b27ed87273ed0bff76268e6d99e70d21c2a1ab02c3d027be67
+  checksum: 10c0/38eab9026fbb267af28f7567606624a8d73869fe0b90579c92a91b1503e8723f2a71ae95d101d92ebf4cf3d6d228ab0428d68ac91ce4f26fac1c3871881ce735
   languageName: node
   linkType: hard
 
@@ -1060,43 +1060,42 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@graphql-tools/merge@npm:^9.1.2":
-  version: 9.1.2
-  resolution: "@graphql-tools/merge@npm:9.1.2"
+"@graphql-tools/merge@npm:^9.1.3":
+  version: 9.1.3
+  resolution: "@graphql-tools/merge@npm:9.1.3"
   dependencies:
-    "@graphql-tools/utils": "npm:^10.10.0"
+    "@graphql-tools/utils": "npm:^10.10.1"
     tslib: "npm:^2.4.0"
   peerDependencies:
     graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
-  checksum: 10c0/af302ec9454d5f18e5ff2a9556f37412f586b57045d0f261620771d69dcfc2954f316e8c8d7f4b47a2f4ed1557e46454506b8a0efd664f8d192f42f4770ed311
+  checksum: 10c0/e9cae683ff1df77e86442ab80391d956187b512abdc58817a376be3264d938900615d3c95cdd9c7560f55b28843c3d430ffc832649f1b07479354ce9bb192b01
   languageName: node
   linkType: hard
 
-"@graphql-tools/schema@npm:^10.0.26":
-  version: 10.0.26
-  resolution: "@graphql-tools/schema@npm:10.0.26"
+"@graphql-tools/schema@npm:^10.0.27":
+  version: 10.0.27
+  resolution: "@graphql-tools/schema@npm:10.0.27"
   dependencies:
-    "@graphql-tools/merge": "npm:^9.1.2"
-    "@graphql-tools/utils": "npm:^10.10.0"
+    "@graphql-tools/merge": "npm:^9.1.3"
+    "@graphql-tools/utils": "npm:^10.10.1"
     tslib: "npm:^2.4.0"
   peerDependencies:
     graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
-  checksum: 10c0/e209c7292a7bb5d634151d56e2e132f9bf496048f7aef0aacd5784780491d459b2e09963917aa25adaac853c7b7f5eba2549858d687c75246239dfb675c0c675
+  checksum: 10c0/61ee7de2c9ff2bf6d5210038589f17d73c9683de80e77907e5dae98c5b48740e76e8d35fb6d0b444ef20c2a7601b46eeb481d5ea2168281faa0a9ccb5c7eb76b
   languageName: node
   linkType: hard
 
-"@graphql-tools/utils@npm:^10.10.0":
-  version: 10.10.0
-  resolution: "@graphql-tools/utils@npm:10.10.0"
+"@graphql-tools/utils@npm:^10.10.1":
+  version: 10.10.1
+  resolution: "@graphql-tools/utils@npm:10.10.1"
   dependencies:
     "@graphql-typed-document-node/core": "npm:^3.1.1"
     "@whatwg-node/promise-helpers": "npm:^1.0.0"
     cross-inspect: "npm:1.0.1"
-    dset: "npm:^3.1.4"
     tslib: "npm:^2.4.0"
   peerDependencies:
     graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
-  checksum: 10c0/bf34f80c268e16bcc10398d0d5e304f55772e46eef404db7f87a09c0f421935759a39d927a0f27bd18c828c78f75dd0395c6b5d1e904ffd0f52b98b2b4bd7291
+  checksum: 10c0/3bce37c9dfd0109e15a0d0017332b84a3727a530496d664e9eba816abb3397717ec720295854be4c4b2aa4110961cb0c307964b10c40002c16ff2f4b8d233f06
   languageName: node
   linkType: hard
 
@@ -4380,13 +4379,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dset@npm:^3.1.4":
-  version: 3.1.4
-  resolution: "dset@npm:3.1.4"
-  checksum: 10c0/b67bbd28dd8a539e90c15ffb61100eb64ef995c5270a124d4f99bbb53f4d82f55a051b731ba81f3215dd9dce2b4c8d69927dc20b3be1c5fc88bab159467aa438
-  languageName: node
-  linkType: hard
-
 "dunder-proto@npm:^1.0.0, dunder-proto@npm:^1.0.1":
   version: 1.0.1
   resolution: "dunder-proto@npm:1.0.1"
@@ -5691,19 +5683,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"graphql-tools@npm:9.0.21":
-  version: 9.0.21
-  resolution: "graphql-tools@npm:9.0.21"
+"graphql-tools@npm:9.0.22":
+  version: 9.0.22
+  resolution: "graphql-tools@npm:9.0.22"
   dependencies:
-    "@apollo/client": "npm:~4.0.5"
-    "@graphql-tools/schema": "npm:^10.0.26"
+    "@apollo/client": "npm:~4.0.9"
+    "@graphql-tools/schema": "npm:^10.0.27"
     tslib: "npm:^2.4.0"
   peerDependencies:
     graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
   dependenciesMeta:
     "@apollo/client":
       optional: true
-  checksum: 10c0/82b71353f9ede7080fa756afdbd1f3dc8b6bf97c647b4c4b200d95c055f2f2bb1cdc2478e667702479c6812ebe1f2520f5b612f5eccfbe3f505d733a28f5592d
+  checksum: 10c0/143863af1111d29da6df56a70901360ebe7773d983c1a57cd57ee28f551bb9e811ef8cdf2ecde5e7239478bf85f8a4d655b3cb82b4769a05b118bcbf3932939e
   languageName: node
   linkType: hard
 
@@ -7594,7 +7586,7 @@ __metadata:
     eslint-config-next: "npm:15.5.6"
     eslint-plugin-no-loops: "npm:0.4.0"
     graphql: "npm:16.12.0"
-    graphql-tools: "npm:9.0.21"
+    graphql-tools: "npm:9.0.22"
     graphqurl: "npm:2.0.0"
     husky: "npm:9.1.7"
     i18next: "npm:25.6.0"
