@@ -690,6 +690,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/runtime@npm:^7.28.4":
+  version: 7.28.6
+  resolution: "@babel/runtime@npm:7.28.6"
+  checksum: 10c0/358cf2429992ac1c466df1a21c1601d595c46930a13c1d4662fde908d44ee78ec3c183aaff513ecb01ef8c55c3624afe0309eeeb34715672dbfadb7feedb2c0d
+  languageName: node
+  linkType: hard
+
 "@babel/template@npm:^7.25.9":
   version: 7.25.9
   resolution: "@babel/template@npm:7.25.9"
@@ -5909,17 +5916,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"i18next@npm:25.6.2":
-  version: 25.6.2
-  resolution: "i18next@npm:25.6.2"
+"i18next@npm:25.8.1":
+  version: 25.8.1
+  resolution: "i18next@npm:25.8.1"
   dependencies:
-    "@babel/runtime": "npm:^7.27.6"
+    "@babel/runtime": "npm:^7.28.4"
   peerDependencies:
     typescript: ^5
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 10c0/8e9ac1c4ea8efb04209733e595a4be86361466a2ea2ac7d244770cc73ffad80224da132b38de50aa7cb2b23d4061ce562f81e0e00abad8efd539d9a0c0e19ba2
+  checksum: 10c0/04d03edbb107e523dd617ec51d58aa871c353fbe59a171fa61556119423a37d21f5b2019c3d4ebd6fc9c6e4852125af0d95b2e153d4038353116e6607b531951
   languageName: node
   linkType: hard
 
@@ -7589,7 +7596,7 @@ __metadata:
     graphql-tools: "npm:9.0.24"
     graphqurl: "npm:2.0.0"
     husky: "npm:9.1.7"
-    i18next: "npm:25.6.2"
+    i18next: "npm:25.8.1"
     isomorphic-unfetch: "npm:4.0.2"
     jest: "npm:30.2.0"
     lint-staged: "npm:16.2.6"
