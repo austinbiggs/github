@@ -2573,12 +2573,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:24.10.13":
-  version: 24.10.13
-  resolution: "@types/node@npm:24.10.13"
+"@types/node@npm:24.13.2":
+  version: 24.13.2
+  resolution: "@types/node@npm:24.13.2"
   dependencies:
-    undici-types: "npm:~7.16.0"
-  checksum: 10c0/4ff0b9b060b5477c0fec5b11a176f294be588104ab546295db65b17a92ba0a6077b52ad92dd3c0d2154198c7f9d0021e6c1d42b00c9ac7ebfd85632afbcc48a4
+    undici-types: "npm:~7.18.0"
+  checksum: 10c0/d7d48a88a4feb0a6aac3cbfaf9ef3b12752b4b09447f88dd0b4c77c03b281e3d4330fe6982a99aedcd63fc16c7540a0c248b91eb2abb0b3edd884d7fe684e9ea
   languageName: node
   linkType: hard
 
@@ -7606,7 +7606,7 @@ __metadata:
     "@testing-library/react-hooks": "npm:8.0.1"
     "@testing-library/user-event": "npm:14.6.1"
     "@types/lodash": "npm:4.17.20"
-    "@types/node": "npm:24.10.13"
+    "@types/node": "npm:24.13.2"
     "@types/react": "npm:19.2.10"
     "@typescript-eslint/eslint-plugin": "npm:8.46.4"
     "@typescript-eslint/parser": "npm:8.46.4"
@@ -10051,10 +10051,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"undici-types@npm:~7.16.0":
-  version: 7.16.0
-  resolution: "undici-types@npm:7.16.0"
-  checksum: 10c0/3033e2f2b5c9f1504bdc5934646cb54e37ecaca0f9249c983f7b1fc2e87c6d18399ebb05dc7fd5419e02b2e915f734d872a65da2e3eeed1813951c427d33cc9a
+"undici-types@npm:~7.18.0":
+  version: 7.18.2
+  resolution: "undici-types@npm:7.18.2"
+  checksum: 10c0/85a79189113a238959d7a647368e4f7c5559c3a404ebdb8fc4488145ce9426fcd82252a844a302798dfc0e37e6fb178ff481ed03bc4caf634c5757d9ef43521d
   languageName: node
   linkType: hard
 
